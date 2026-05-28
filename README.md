@@ -10,7 +10,6 @@ https://placement-tracker-roan.vercel.app/
 ## Features
 
 * Track placement applications and interview status
-* Monitor LeetCode and Codeforces problem-solving progress
 * Interactive dashboard with progress visualization
 * Persistent data storage using localStorage
 * Responsive user interface for desktop and mobile devices
