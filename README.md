@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Placement and Coding Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application built to track coding progress and placement preparation in one place.
+The app helps users organize job applications, monitor coding consistency, and visualize progress through interactive charts.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+https://placement-tracker-roan.vercel.app/
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Track placement applications and interview status
+* Monitor LeetCode and Codeforces problem-solving progress
+* Interactive dashboard with progress visualization
+* Persistent data storage using localStorage
+* Responsive user interface for desktop and mobile devices
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+* React.js
+* JavaScript
+* HTML5
+* CSS3
+* Chart.js
+* LocalStorage
+* Vercel (Deployment)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Motivation
 
-### `npm run build`
+Managing coding practice and placement preparation separately becomes messy over time.
+This project was built to combine both workflows into a single dashboard and make progress tracking more organized and visual.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation and Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/Sai-Teja1104/placement-tracker.git
+```
 
-### `npm run eject`
+Move into the project folder:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+cd placement-tracker
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Run the development server:
 
-## Learn More
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Open:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+http://localhost:3000
+```
 
-### Code Splitting
+## Future Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* User authentication
+* Backend integration
+* Cloud database support
+* Placement analytics
+* Dark mode support
 
-### Analyzing the Bundle Size
+## Learning Outcomes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Through this project, I improved my understanding of:
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* React component architecture
+* State management
+* Conditional rendering
+* Data persistence using localStorage
+* Frontend deployment using Vercel
+* Responsive UI design
